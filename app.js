@@ -84,7 +84,7 @@ function renderRanking(players) {
   root.innerHTML = players.map((player, index) => `<div class="rank-row">
     <span class="rank-number">${String(index + 1).padStart(2, "0")}</span>
     <span class="rank-player"><img src="${headUrl(player.name, 64)}" alt="" loading="lazy"><span>${escapeHtml(player.name)}</span></span>
-    <span class="rank-losses">${player.losses}× EVENTS</span>
+    <span class="rank-losses">${player.gains + player.losses}× EVENTS</span>
     <span class="rank-result">${rankMarkup(player.rank)}<strong class="rank-elo">${formatNumber(player.elo)}</strong></span>
   </div>`).join("");
 }
