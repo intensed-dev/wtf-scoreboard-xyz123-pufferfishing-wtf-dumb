@@ -1,10 +1,24 @@
 [
   {
     "person": "Alex",
+    "title": "Won a ragebait challenge",
+    "amount": 350,
+    "date": "2026-11-10",
+    "type": "gain"
+  },
+  {
+    "person": "Alex",
     "title": "Fell for an obvious bait",
     "amount": 25,
     "date": "2026-11-10",
     "type": "loss"
+  },
+  {
+    "person": "Steve",
+    "title": "Won a small challenge",
+    "amount": 280,
+    "date": "2026-11-10",
+    "type": "gain"
   },
   {
     "person": "Steve",
