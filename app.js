@@ -33,9 +33,9 @@ function calculateLeaderboard(events) {
   }
 
   return [...players.values()].map(player => {
-    const rankIndex = Math.floor(player.elo / 100) - 1;
-    const hasRank = rankIndex >= 0 && rankIndex < RANKS.length;
-    const rank = hasRank ? RANKS[rankIndex] : "Unranked";
+    const rawRankIndex = Math.floor(player.elo / 100) - 1;
+    const hasRank = rawRankIndex >= 0;
+    const rank = hasRank ? RANKS[Math.min(rawRankIndex, RANKS.length - 1)] : "Unranked";
     const retired = hasRank && player.lastGain !== null &&
       (Date.now() - player.lastGain.getTime()) > RETIRE_AFTER_DAYS * 24 * 60 * 60 * 1000;
     return { ...player, rank: retired ? `R${rank}` : rank, retired };
