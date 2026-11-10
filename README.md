@@ -16,7 +16,7 @@ A static ragebait leaderboard. Every player starts at **0 Elo**. Player scores a
 
 ## Add events
 
-Edit only `data/losses.json`. Each event has a player, title, amount, date, and event type.
+Edit only `data/losses.json`. It currently contains example events for **Alex** and **Steve** so you can preview the leaderboard. Replace or remove these examples when adding real results. Each event has a player, title, amount, date, and event type.
 
 ```json
 [
