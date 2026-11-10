@@ -1,0 +1,30 @@
+[
+  {
+    "person": "Alex",
+    "title": "Successfully baited another player",
+    "amount": 350,
+    "date": "2026-11-10",
+    "type": "gain"
+  },
+  {
+    "person": "Alex",
+    "title": "Fell for an obvious bait",
+    "amount": 25,
+    "date": "2026-11-10",
+    "type": "loss"
+  },
+  {
+    "person": "Steve",
+    "title": "Pulled off a successful ragebait",
+    "amount": 280,
+    "date": "2026-11-10",
+    "type": "gain"
+  },
+  {
+    "person": "Steve",
+    "title": "Got caught by the bait",
+    "amount": 80,
+    "date": "2026-11-10",
+    "type": "loss"
+  }
+]
