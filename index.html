@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101014">
+  <meta name="description" content="Das offizielle Ranking der größten Ragebait-Legenden.">
+  <title>RAGEBOARD — Elo Ranking</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="Rageboard Startseite"><span class="brand-mark">R</span><span>RAGE<span class="brand-muted">BOARD</span></span></a>
+    <div class="live-label"><span class="live-dot"></span> LIVE RANKING</div>
+  </header>
+  <main class="shell">
+    <section class="hero">
+      <div class="eyebrow"><span class="eyebrow-line"></span> THE OFFICIAL SKILL ISSUE</div>
+      <h1>WER HAT AM<br><span>MEISTEN VERLOREN?</span></h1>
+      <p class="hero-copy">Jeder startet bei 100 Elo. Jeder Ragebait kostet Punkte.<br>Dein Verhalten. Dein Ranking. Dein Problem.</p>
+      <div class="stats-strip">
+        <div class="stat"><span class="stat-label">SPIELER</span><strong id="player-count">0</strong></div>
+        <div class="stat"><span class="stat-label">ELO ABGEZOGEN</span><strong id="elo-lost">0</strong></div>
+        <div class="stat"><span class="stat-label">VORFÄLLE</span><strong id="loss-count">0</strong></div>
+      </div>
+    </section>
+    <section class="leaderboard-section">
+      <div class="section-heading"><div><span class="section-kicker">01 / RANKINGS</span><h2>Das Podest<span class="accent">.</span></h2></div><span class="sort-note">SORTIERT NACH ELO <span class="sort-arrow">↓</span></span></div>
+      <div id="podium" class="podium">
+        <div class="empty-state">Noch keine Verluste eingetragen.<br><span>Die Ruhe vor dem Rage.</span></div>
+      </div>
+      <div class="table-wrap">
+        <div class="table-head"><span>RANK</span><span>PLAYER</span><span>VERLUSTE</span><span class="align-right">ELO</span></div>
+        <div id="ranking-list"><div class="list-empty">Das Ranking erscheint hier, sobald Spieler in losses.json eingetragen sind.</div></div>
+      </div>
+    </section>
+    <section class="history-section">
+      <div class="section-heading history-heading"><div><span class="section-kicker">02 / RECENT ACTIVITY</span><h2>Letzte Abzüge<span class="accent">.</span></h2></div><span class="history-count" id="history-count">0 EINTRÄGE</span></div>
+      <div id="history" class="history-list"><div class="list-empty">Noch ist niemand ausgerastet. Verdächtig.</div></div>
+    </section>
+    <footer><span class="footer-brand">RAGEBOARD<span class="accent">®</span></span><span>100 START-ELO · KEINE AUSREDEN</span><a href="https://github.com/intensed-dev/wtf-scoreboard-xyz123-pufferfishing-wtf-dumb" target="_blank" rel="noreferrer">SOURCE CODE ↗</a></footer>
+  </main>
+</body>
+</html>
