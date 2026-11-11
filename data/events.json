@@ -1,30 +1,37 @@
 [
   {
-    "person": "Alex",
-    "title": "Successfully baited another player",
-    "amount": 350,
+    "person": "ThatCuteOne",
+    "title": "Ragebaited _Intense with wrong age",
+    "amount": 5,
     "date": "2026-11-10",
     "type": "gain"
   },
   {
-    "person": "Alex",
-    "title": "Fell for an obvious bait",
-    "amount": 25,
-    "date": "2026-11-10",
-    "type": "loss"
-  },
-  {
-    "person": "Steve",
-    "title": "Pulled off a successful ragebait",
-    "amount": 280,
+    "person": "_Intense",
+    "title": "Ragebaited Nadir_E wirh Vibe Coding",
+    "amount": 2,
     "date": "2026-11-10",
     "type": "gain"
   },
   {
-    "person": "Steve",
-    "title": "Got caught by the bait",
-    "amount": 80,
+    "person": "AstroTheCat",
+    "title": "-",
+    "amount": 0,
     "date": "2026-11-10",
-    "type": "loss"
+    "type": "gain"
+  },
+  {
+    "person": "ru_bl",
+    "title": "-",
+    "amount": 0,
+    "date": "2026-11-10",
+    "type": "gain"
+  },
+  {
+    "person:" "Okti3",
+    "title": "-",
+    "amount": 0,
+    "date": "2026-11-10",
+    "type": "gain"
   }
 ]
